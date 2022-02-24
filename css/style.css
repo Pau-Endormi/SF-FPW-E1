@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #F6F2F2;
+}
+
+/*------------header------------*/
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #272822;
+}
+
+.inner-header {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.logo-container {
+    float: left;
+}
+
+.logo-container h1 {
+    color: white;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration: none;
+    background-color: #272822;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: gray;
+}
+
+/*------------main------------*/
+
+.inner-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+p {
+    font-size: large;
+}
+
+.vk-link {
+    background-image: url(../img/icon-vk.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px;
+    padding-left: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.vk-link:hover {
+    color: blue;
+}
